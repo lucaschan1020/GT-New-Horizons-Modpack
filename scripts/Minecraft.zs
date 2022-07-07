@@ -303,7 +303,7 @@ recipes.remove(Dispenser);
 recipes.remove(Dropper);
 
 // --- Piston
-recipes.remove(Piston);
+// recipes.remove(Piston);
 
 // --- Sticky Piston
 recipes.remove(SPiston);
@@ -1067,10 +1067,10 @@ recipes.addShaped(Dropper, [
 [<ore:gearGtSmallAnyIron>, RedAlloyWire, <ore:gearGtSmallAnyIron>]]);
 
 // --- Piston
-recipes.addShaped(Piston, [
-[<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
-[<ore:gearGtSmallAnyIron>, <ore:fenceWood>, <ore:gearGtSmallAnyIron>],
-[Cobble, <ore:plateRedAlloy>, Cobble]]);
+// recipes.addShaped(Piston, [
+// [<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
+// [<ore:gearGtSmallAnyIron>, <ore:fenceWood>, <ore:gearGtSmallAnyIron>],
+// [Cobble, <ore:plateRedAlloy>, Cobble]]);
 
 // --- Sticky Piston
 recipes.addShaped(SPiston, [
@@ -1293,10 +1293,10 @@ recipes.addShaped(DaylightSensor, [
 [WoodSlab, RedAlloyWire, WoodSlab]]);
 
 // --- Hopper
-recipes.addShaped(Hopper, [
-[IronPlate, Chest, IronPlate],
-[IronPlate, IronGear, IronPlate],
-[HHammer, IronPlate, <ore:craftingToolFile>]]);
+// recipes.addShaped(Hopper, [
+// [IronPlate, Chest, IronPlate],
+// [IronPlate, IronGear, IronPlate],
+// [HHammer, IronPlate, <ore:craftingToolFile>]]);
 
 
 
@@ -2817,7 +2817,7 @@ Assembler.addRecipe(<minecraft:trapdoor> * 6, <minecraft:wooden_slab> * 4, <Biom
 
 
 // --- Piston
-Assembler.addRecipe(<minecraft:piston>, <dreamcraft:tile.PistonBlock>, <dreamcraft:item.PistonPlate>, 100, 30);
+// Assembler.addRecipe(<minecraft:piston>, <dreamcraft:tile.PistonBlock>, <dreamcraft:item.PistonPlate>, 100, 30);
 
 // --- Bookshelf
 Assembler.addRecipe(<minecraft:bookshelf>, <minecraft:planks:*> * 6, <minecraft:book> * 3, 300, 16);
