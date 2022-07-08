@@ -1,5 +1,6 @@
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
+import mods.gregtech.ChemicalReactor;
 import mods.gregtech.Wiremill;
 
 // GT Coke Oven
@@ -544,3 +545,6 @@ recipes.addShaped(<minecraft:hopper>, [
 [<ore:plateIron>, <ore:craftingToolWrench>, <ore:plateIron>],
 [<ore:plateIron>, <minecraft:chest>, <ore:plateIron>],
 [null, <ore:plateIron>, null]]);
+
+// Ender Pearl
+ChemicalReactor.addRecipe(<minecraft:ender_pearl> * 10, null, <gregtech:gt.metaitem.01:2008>, <gregtech:gt.metaitem.01:2025> * 4, <liquid:nitrogen> * 5000, 400, 120);
