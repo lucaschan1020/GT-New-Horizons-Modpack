@@ -26,7 +26,7 @@ val EnergyCell = <appliedenergistics2:tile.BlockEnergyCell>;
 val DEnergyCell = <appliedenergistics2:tile.BlockDenseEnergyCell>;
 val MEChest = <appliedenergistics2:tile.BlockChest>;
 val MEDrive = <appliedenergistics2:tile.BlockDrive>;
-val MEController = <appliedenergistics2:tile.BlockController>;
+// val MEController = <appliedenergistics2:tile.BlockController>;
 val Interface = <appliedenergistics2:item.ItemMultiPart:440>;
 val Compass = <appliedenergistics2:tile.BlockSkyCompass>;
 val ObsidianChest = <IronChest:BlockIronChest:6>;
@@ -268,7 +268,7 @@ recipes.remove(CertusQBlock);
 recipes.remove(CCrtusQBlock);
 
 // --- ME Controller
-recipes.remove(MEController);
+// recipes.remove(MEController);
 
 // --- Energy Cell
 recipes.remove(EnergyCell);
@@ -629,10 +629,10 @@ recipes.remove(<appliedenergistics2:item.ToolPortableCell>);
 
 
 // --- ME Controller
-recipes.addShaped(MEController, [
-[TitaniumPlate, AdvCircuit, TitaniumPlate],
-[DiamondCircuit, FluixBlock, DiamondCircuit],
-[TitaniumPlate, AdvCircuit, TitaniumPlate]]);
+// recipes.addShaped(MEController, [
+// [TitaniumPlate, AdvCircuit, TitaniumPlate],
+// [DiamondCircuit, FluixBlock, DiamondCircuit],
+// [TitaniumPlate, AdvCircuit, TitaniumPlate]]);
 
 // --- Energy Cell
 // recipes.addShaped(EnergyCell, [

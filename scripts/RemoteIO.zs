@@ -242,7 +242,7 @@ Assembler.addRecipe(<RIO:item.chip.transfer:10>, <dreamcraft:item.BlankPlatedChi
 Assembler.addRecipe(<RIO:item.chip.transfer:12>, <dreamcraft:item.BlankPlatedChip>, <ExtraUtilities:extractor_base:12> * 2, 200, 480);
 
 // --- ME Network Transfer Chip
-Assembler.addRecipe(<RIO:item.chip.transfer:20>, <dreamcraft:item.BlankPlatedChip>, <appliedenergistics2:tile.BlockController>, 200, 480);
+Assembler.addRecipe(<RIO:item.chip.transfer:20>, <dreamcraft:item.BlankPlatedChip>, <appliedenergistics2:tile.BlockInterface>, 200, 480);
 
 // --- Redstone Transfer Chip
 Assembler.addRecipe(<RIO:item.chip.transfer:21>, <dreamcraft:item.BlankPlatedChip>, <gregtech:gt.blockmachines:2001> * 2, 200, 480);
