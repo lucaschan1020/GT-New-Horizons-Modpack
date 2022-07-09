@@ -12,6 +12,7 @@
 !config/*
 !scripts/*
 !resources/*
+!local/*
 
 ##################################################################
 ##Blacklist all folders not modified by GT:NH team either at all
