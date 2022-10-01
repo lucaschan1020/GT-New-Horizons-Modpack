@@ -37,10 +37,10 @@ recipes.remove(<ae2stuff:Visualiser>);
 
 
 // --- Pattern Encoder
-recipes.addShaped(<ae2stuff:Encoder>, [
-[<ore:plateTitanium>, <appliedenergistics2:item.ItemMultiPart:340>, <ore:plateTitanium>],
-[<appliedenergistics2:item.ItemMultiMaterial:23>, <appliedenergistics2:tile.BlockCraftingUnit>, <appliedenergistics2:item.ItemMultiMaterial:23>],
-[<ore:plateTitanium>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateTitanium>]]);
+// recipes.addShaped(<ae2stuff:Encoder>, [
+// [<ore:plateTitanium>, <appliedenergistics2:item.ItemMultiPart:340>, <ore:plateTitanium>],
+// [<appliedenergistics2:item.ItemMultiMaterial:23>, <appliedenergistics2:tile.BlockCraftingUnit>, <appliedenergistics2:item.ItemMultiMaterial:23>],
+// [<ore:plateTitanium>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateTitanium>]]);
 
 // --- Crystal Growth Camber
 recipes.addShaped(<ae2stuff:Grower>, [
@@ -67,7 +67,7 @@ recipes.addShaped(<ae2stuff:Visualiser>, [
 [<ore:craftingToolScrewdriver>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:craftingToolWrench>]]);
 
 // --- Advanced Inscriber
-recipes.addShaped(<ae2stuff:Inscriber>, [
-[<ore:plateTungstenSteel>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateTungstenSteel>],
-[<appliedenergistics2:item.ItemMultiMaterial:22>, <appliedenergistics2:tile.BlockInscriber>, <appliedenergistics2:item.ItemMultiMaterial:22>],
-[<ore:plateTungstenSteel>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateTungstenSteel>]]);
+// recipes.addShaped(<ae2stuff:Inscriber>, [
+// [<ore:plateTungstenSteel>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateTungstenSteel>],
+// [<appliedenergistics2:item.ItemMultiMaterial:22>, <appliedenergistics2:tile.BlockInscriber>, <appliedenergistics2:item.ItemMultiMaterial:22>],
+// [<ore:plateTungstenSteel>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateTungstenSteel>]]);

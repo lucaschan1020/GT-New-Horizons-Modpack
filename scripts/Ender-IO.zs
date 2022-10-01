@@ -748,10 +748,10 @@ recipes.addShaped(<EnderIO:blockTank:1>, [
 [DarkSteelPlate, MvPump, DarkSteelPlate]]);
 
 // --- Reservoir
-recipes.addShaped(<EnderIO:blockReservoir> * 2, [
-[FQuartz, HvPump, FQuartz],
-[FQuartz, Cauldron, FQuartz],
-[FQuartz, HvPump, FQuartz]]);
+// recipes.addShaped(<EnderIO:blockReservoir> * 2, [
+// [FQuartz, HvPump, FQuartz],
+// [FQuartz, Cauldron, FQuartz],
+// [FQuartz, HvPump, FQuartz]]);
 
 // --- Dimensional Tranceiver
 recipes.addShaped(<EnderIO:blockTransceiver>, [
@@ -980,10 +980,10 @@ recipes.addShaped(RAUpgrade, [
 [SiliconPlate, ESteelPlate, SiliconPlate]]);
 
 // --- Yeta Wrench
-recipes.addShaped(<EnderIO:itemYetaWrench>, [
-[ESteelIngot, Hammer, ESteelIngot],
-[ESteelIngot, ESteelGear, ESteelIngot],
-[null, ESteelIngot, null]]);
+// recipes.addShaped(<EnderIO:itemYetaWrench>, [
+// [ESteelIngot, Hammer, ESteelIngot],
+// [ESteelIngot, ESteelGear, ESteelIngot],
+// [null, ESteelIngot, null]]);
 
 // --- Conduit Probe
 recipes.addShaped(<EnderIO:itemConduitProbe>, [
@@ -1302,7 +1302,7 @@ Assembler.addRecipe(<EnderIO:itemLiquidConduit>, <gregtech:gt.blockmachines:5112
 Assembler.addRecipe(<EnderIO:itemLiquidConduit:1>, <gregtech:gt.blockmachines:5132>, <gregtech:gt.metaitem.01:17364>, <liquid:molten.plastic> * 144, 100, 256);
 
 // --- Ender Fluid Conduit
-Assembler.addRecipe(<EnderIO:itemLiquidConduit:2>, <gregtech:gt.blockmachines:5680>, <gregtech:gt.metaitem.01:17367>, <liquid:molten.plastic> * 144, 100, 480);
+// Assembler.addRecipe(<EnderIO:itemLiquidConduit:2>, <gregtech:gt.blockmachines:5680>, <gregtech:gt.metaitem.01:17367>, <liquid:molten.plastic> * 144, 100, 480);
 
 // --- Crystalline Ender Fluid Conduit
 Assembler.addRecipe(<EnderIO:itemLiquidConduit:3>, <gregtech:gt.blockmachines:5682>, <gregtech:gt.metaitem.01:17403>, <liquid:molten.epoxid> * 144, 100, 960);
@@ -1317,10 +1317,10 @@ Assembler.addRecipe(<EnderIO:itemLiquidConduit:5>, <gregtech:gt.blockmachines:52
 Assembler.addRecipe(<EnderIO:itemLiquidConduit:6>, <gregtech:gt.blockmachines:5282>, <gregtech:gt.metaitem.01:17405>, <liquid:molten.polybenzimidazole> * 144, 100, 30720);
 
 // --- Item Conduit
-Assembler.addRecipe(<EnderIO:itemItemConduit>, <gregtech:gt.blockmachines:5611>, <gregtech:gt.metaitem.01:17378>, <liquid:molten.plastic> * 144, 100, 120);
+// Assembler.addRecipe(<EnderIO:itemItemConduit>, <gregtech:gt.blockmachines:5611>, <gregtech:gt.metaitem.01:17378>, <liquid:molten.plastic> * 144, 100, 120);
 
 // --- ME Conduit
-Assembler.addRecipe(<EnderIO:itemMEConduit>, <appliedenergistics2:item.ItemMultiPart:16>, <gregtech:gt.metaitem.01:17856>, <liquid:molten.plastic> * 144, 100, 256);
+// Assembler.addRecipe(<EnderIO:itemMEConduit>, <appliedenergistics2:item.ItemMultiPart:16>, <gregtech:gt.metaitem.01:17020>, <liquid:molten.plastic> * 144, 100, 256);
 
 // --- Dense ME Conduit
 Assembler.addRecipe(<EnderIO:itemMEConduit:1>, <EnderIO:itemMEConduit> * 4, <gregtech:gt.metaitem.01:17028>, <liquid:molten.plastic> * 144, 100, 480);
@@ -1329,7 +1329,7 @@ Assembler.addRecipe(<EnderIO:itemMEConduit:1>, <EnderIO:itemMEConduit> * 4, <gre
 Assembler.addRecipe(<EnderIO:itemOCConduit>, <appliedenergistics2:item.ItemMultiPart:16>, <gregtech:gt.metaitem.01:17381>, <liquid:molten.plastic> * 144, 100, 480);
 
 // --- Basic Item Filter
-Assembler.addRecipe(<EnderIO:itemBasicFilterUpgrade>, <gregtech:gt.metaitem.01:32729>, <minecraft:iron_bars>, 300, 30);
+// Assembler.addRecipe(<EnderIO:itemBasicFilterUpgrade>, <gregtech:gt.metaitem.01:32729>, <minecraft:iron_bars>, 300, 30);
 
 // --- Advanced Item Filter
 Assembler.addRecipe(<EnderIO:itemBasicFilterUpgrade:1>, <EnderIO:itemBasicFilterUpgrade>, ZLogic, 300, 64);
@@ -1381,7 +1381,7 @@ Assembler.addRecipe(<EnderIO:blockReinforcedObsidian>, [Obsidian, DarkSteelPlate
 ChemicalBath.addRecipe([<EnderIO:itemConduitFacade:1>], <EnderIO:itemConduitFacade>, <liquid:obsidian.molten> * 576, [10000], 200, 2);
 
 // --- Conduit Binder
-ChemicalBath.addRecipe([<EnderIO:itemMaterial:1> * 2, <EnderIO:itemMaterial:1> * 2, <EnderIO:itemMaterial:1>], <EnderIO:itemMaterial:2>, <liquid:molten.rubber> * 144, [10000, 9000, 5000], 200, 2);
+// ChemicalBath.addRecipe([<EnderIO:itemMaterial:1> * 2, <EnderIO:itemMaterial:1> * 2, <EnderIO:itemMaterial:1>], <EnderIO:itemMaterial:2>, <liquid:molten.rubber> * 144, [10000, 9000, 5000], 200, 2);
 
 
 
@@ -1400,7 +1400,7 @@ FluidSolidifier.addRecipe(<EnderIO:blockDarkSteelAnvil>, <gregtech:gt.metaitem.0
 
 
 // --- Binder Composite
-Pulverizer.addRecipe([<EnderIO:itemMaterial:2> * 9], <IC2:itemPartCFPowder>, [10000], 300, 2);
+// Pulverizer.addRecipe([<EnderIO:itemMaterial:2> * 9], <IC2:itemPartCFPowder>, [10000], 300, 2);
 
 // --- Grains of Piezallity
 Pulverizer.addRecipe([<EnderIO:itemMaterial:14>, <EnderIO:itemMaterial:14>, <EnderIO:itemMaterial:14>, <EnderIO:itemMaterial:14>], <EnderIO:itemMaterial:5>, [10000, 1000, 100, 10], 100, 480);
