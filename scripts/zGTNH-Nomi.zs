@@ -257,8 +257,8 @@ recipes.addShaped(<ae2fc:fluid_interface>, [
 [<ore:plateLapis>, <ore:plateLapis>, <ore:plateLapis>]]);
 
 // ME Fluid Storage Bus
-// recipes.addShapeless(<extracells:part.base:2>, 
-// [<extracells:ecbaseblock>, <gregtech:gt.metaitem.01:32611>]);
+recipes.addShapeless(<extracells:part.base:2>, 
+[<ae2fc:fluid_interface>, <gregtech:gt.metaitem.01:32611>]);
 
 // Quartz Fiber
 Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140> * 2, <ore:itemNetherQuartz>, 100, 16);
@@ -285,10 +285,10 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:280>, [
 [null, null, null]]);
 
 // ME Fluid Level Emitter
-// recipes.addShaped(<extracells:part.base:4>, [
-// [<minecraft:redstone_torch>, <ore:plateLapis>, null],
-// [<appliedenergistics2:item.ItemMultiMaterial:23>, <ore:stickStainlessSteel>, null],
-// [null, null, null]]);
+recipes.addShaped(<extracells:part.base:4>, [
+[<minecraft:redstone_torch>, <ore:plateLapis>, null],
+[<appliedenergistics2:item.ItemMultiMaterial:23>, <ore:stickStainlessSteel>, null],
+[null, null, null]]);
 
 // ME Storage Monitor
 recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:400>, [
@@ -297,10 +297,10 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:400>, [
 [null, null, null]]);
 
 // ME Fluid Storage Monitor
-// recipes.addShaped(<extracells:part.base:10>, [
-// [<appliedenergistics2:item.ItemMultiPart:180>, <extracells:part.base:4>, null],
-// [null, null, null],
-// [null, null, null]]);
+recipes.addShaped(<extracells:part.base:10>, [
+[<appliedenergistics2:item.ItemMultiPart:180>, <extracells:part.base:4>, null],
+[null, null, null],
+[null, null, null]]);
 
 // ME Toggle Bus
 recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:80>, [
@@ -327,10 +327,10 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:180>, [
 [<appliedenergistics2:item.ItemMultiMaterial:12>, <appliedenergistics2:item.ItemMultiMaterial:12>, <appliedenergistics2:item.ItemMultiMaterial:12>]]);
 
 // ME Fluid Terminal
-// recipes.addShaped(<extracells:part.base:3>, [
-// [<appliedenergistics2:item.ItemMultiPart:380>, <ore:plateLapis>, null],
-// [<appliedenergistics2:item.ItemMultiMaterial:22>, null, null],
-// [null, null, null]]);
+recipes.addShaped(<extracells:part.base:3>, [
+[<appliedenergistics2:item.ItemMultiPart:380>, <ore:plateLapis>, null],
+[<appliedenergistics2:item.ItemMultiMaterial:22>, null, null],
+[null, null, null]]);
 
 // ME Crafting Terminal
 recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:360>, [
@@ -484,10 +484,10 @@ recipes.addShaped(<appliedenergistics2:item.ToolPortableCell>, [
 [null, null, null]]);
 
 // Portable Fluid Cell
-// recipes.addShaped(<extracells:storage.fluid.portable>, [
-// [null, null, null],
-// [<appliedenergistics2:tile.BlockChest>, <extracells:storage.component:4>, <appliedenergistics2:tile.BlockEnergyCell>],
-// [null, null, null]]);
+recipes.addShaped(<extracells:storage.fluid.portable>, [
+[null, null, null],
+[<appliedenergistics2:tile.BlockChest>, <extracells:storage.component:4>, <appliedenergistics2:tile.BlockEnergyCell>],
+[null, null, null]]);
 
 // ME Security Terminal
 recipes.addShaped(<appliedenergistics2:tile.BlockSecurity>, [
