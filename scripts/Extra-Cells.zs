@@ -582,10 +582,10 @@ recipes.addShaped(<extracells:storage.physical:4>, [
 [<ore:craftingToolScrewdriver>, <appliedenergistics2:item.ItemMultiMaterial:39>, <ore:craftingToolWrench>]]);
 
 // --- ME Portable Fluid Storage
-// recipes.addShaped(<extracells:storage.fluid.portable>, [
-// [null, <extracells:storage.component:4>, null],
-// [<ore:screwTitanium>, <appliedenergistics2:tile.BlockChest>, <ore:screwTitanium>],
-// [<ore:craftingToolScrewdriver>, <appliedenergistics2:tile.BlockEnergyCell>, <ore:craftingToolWrench>]]);
+recipes.addShaped(<extracells:storage.fluid.portable>, [
+[null, <extracells:storage.component:4>, null],
+[<ore:screwTitanium>, <appliedenergistics2:tile.BlockChest>, <ore:screwTitanium>],
+[<ore:craftingToolScrewdriver>, <appliedenergistics2:tile.BlockEnergyCell>, <ore:craftingToolWrench>]]);
 
 
 
