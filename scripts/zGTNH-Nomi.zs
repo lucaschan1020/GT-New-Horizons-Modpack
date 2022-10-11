@@ -590,3 +590,15 @@ recipes.addShaped(<minecraft:hopper>, [
 
 // Ender Pearl
 ChemicalReactor.addRecipe(<minecraft:ender_pearl> * 10, null, <gregtech:gt.metaitem.01:2008>, <gregtech:gt.metaitem.01:2025> * 4, <liquid:nitrogen> * 5000, 400, 120);
+
+// Brewing Stand
+recipes.addShaped(<minecraft:brewing_stand>, [
+[null, <ore:springCopper>, null],
+[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
+[null, null, null]]);
+
+// Dense Redcrystal
+recipes.addShaped(<Automagy:blockRedcrystalDense>, [
+[null, <minecraft:redstone_torch>, null],
+[null, <minecraft:comparator>, null],
+[null, null, null]]);

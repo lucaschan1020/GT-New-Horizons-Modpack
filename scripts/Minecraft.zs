@@ -282,16 +282,16 @@ val Planks20 = <gregtech:gt.metaitem.02:32490>;
 
 
 // --- Chest
-recipes.remove(Chest);
+// recipes.remove(Chest);
 
 // --- Trapped Chest
-recipes.remove(TrappedChest);
+// recipes.remove(TrappedChest);
 
 // --- Crafting Table
-recipes.remove(CraftingTable);
+// recipes.remove(CraftingTable);
 
 // --- Furnace
-recipes.remove(<minecraft:furnace>);
+// recipes.remove(<minecraft:furnace>);
 
 // --- Bedrock
 recipes.remove(Bedrock);
@@ -300,7 +300,7 @@ recipes.remove(Bedrock);
 recipes.remove(Dispenser);
 
 // --- Dropper
-recipes.remove(Dropper);
+// recipes.remove(Dropper);
 
 // --- Piston
 // recipes.remove(Piston);
@@ -344,39 +344,39 @@ furnace.remove(<*>, Obsidian);
 recipes.remove(JackOLantern);
 
 // --- Trapdoor
-recipes.remove(Trapdoor);
+// recipes.remove(Trapdoor);
 
 // --- Pressure Plate
-recipes.remove(PressurePlate);
+// recipes.remove(PressurePlate);
 
 // --- Torch
-recipes.remove(Torch);
+// recipes.remove(Torch);
 
 // --- Lever
-recipes.remove(Lever);
+// recipes.remove(Lever);
 
 // --- Stone Button
-recipes.remove(<minecraft:stone_button>);
+// recipes.remove(<minecraft:stone_button>);
 
-recipes.removeShaped(<minecraft:stone_button>);
+// recipes.removeShaped(<minecraft:stone_button>);
 
 //Glass Pane
 recipes.remove(<minecraft:glass_pane>);
 
 // --- Redstone Torch
-recipes.remove(RSTorch);
+// recipes.remove(RSTorch);
 
 // --- Ladder
-recipes.remove(Ladder);
+// recipes.remove(Ladder);
 
 // --- Fence
-recipes.remove(Fence);
+// recipes.remove(Fence);
 
 // --- Fence Gate
-recipes.remove(FenceGate);
+// recipes.remove(FenceGate);
 
 // --- Enchantment Table
-recipes.remove(EnchantingTable);
+// recipes.remove(EnchantingTable);
 
 // --- Redstone Lamp
 recipes.remove(RSLamp);
@@ -760,13 +760,13 @@ recipes.remove(<minecraft:quartz_block:1>);
 recipes.remove(<minecraft:bookshelf>);
 
 // --- Brewing Stand
-recipes.remove(<minecraft:brewing_stand>);
+// recipes.remove(<minecraft:brewing_stand>);
 
 // --- Clock
-recipes.remove(<minecraft:clock>);
+// recipes.remove(<minecraft:clock>);
 
 // --- Compass
-recipes.remove(<minecraft:compass>);
+// recipes.remove(<minecraft:compass>);
 
 // --- Diamond Sword
 recipes.remove(<minecraft:diamond_sword>);
@@ -907,7 +907,7 @@ recipes.remove(<minecraft:lead>);
 recipes.remove(<minecraft:pumpkin_pie>);
 
 // --- Comparator
-recipes.remove(<minecraft:comparator>);
+// recipes.remove(<minecraft:comparator>);
 
 // --- Redstone Repeater
 recipes.remove(<minecraft:repeater>);
@@ -952,7 +952,7 @@ recipes.remove(<minecraft:slime_ball>);
 recipes.remove(<minecraft:item_frame>);
 
 // --- Bed
-recipes.remove(<minecraft:bed>);
+// recipes.remove(<minecraft:bed>);
 
 // --- Fishing Rod
 recipes.remove(<minecraft:fishing_rod>);
@@ -964,10 +964,10 @@ recipes.removeShaped(<minecraft:paper> * 2, [[<minecraft:reeds>, <minecraft:reed
 recipes.remove(<minecraft:poisonous_potato>);
 
 // --- Sign
-recipes.remove(<minecraft:sign>);
+// recipes.remove(<minecraft:sign>);
 
 // --- Boat
-recipes.remove(<minecraft:boat>);
+// recipes.remove(<minecraft:boat>);
 
 // --- Painting
 recipes.remove(<minecraft:painting>);
@@ -985,16 +985,16 @@ recipes.remove(<minecraft:dragon_egg>);
 recipes.remove(Map);
 
 // --- Wooden Door
-recipes.remove(WoodDoor);
+// recipes.remove(WoodDoor);
 
 // --- Iron Door
-recipes.remove(IronDoor);
+// recipes.remove(IronDoor);
 
 // --- Wither Skull
 recipes.remove(<minecraft:skull:1>);
 
 // --- Shears
-recipes.remove(<minecraft:shears>);
+// recipes.remove(<minecraft:shears>);
 
 // --- Sand
 recipes.removeShapeless(<minecraft:sand>);
@@ -1067,10 +1067,10 @@ recipes.addShaped(Dropper, [
 [<ore:gearGtSmallAnyIron>, RedAlloyWire, <ore:gearGtSmallAnyIron>]]);
 
 // --- Piston
-// recipes.addShaped(Piston, [
-// [<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
-// [<ore:gearGtSmallAnyIron>, <ore:fenceWood>, <ore:gearGtSmallAnyIron>],
-// [Cobble, <ore:plateRedAlloy>, Cobble]]);
+recipes.addShaped(Piston, [
+[<CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>, <CarpentersBlocks:blockCarpentersBlock>],
+[<ore:gearGtSmallAnyIron>, <ore:fenceWood>, <ore:gearGtSmallAnyIron>],
+[Cobble, <ore:plateRedAlloy>, Cobble]]);
 
 // --- Sticky Piston
 recipes.addShaped(SPiston, [
@@ -1293,10 +1293,10 @@ recipes.addShaped(DaylightSensor, [
 [WoodSlab, RedAlloyWire, WoodSlab]]);
 
 // --- Hopper
-// recipes.addShaped(Hopper, [
-// [IronPlate, Chest, IronPlate],
-// [IronPlate, IronGear, IronPlate],
-// [HHammer, IronPlate, <ore:craftingToolFile>]]);
+recipes.addShaped(Hopper, [
+[IronPlate, Chest, IronPlate],
+[IronPlate, IronGear, IronPlate],
+[HHammer, IronPlate, <ore:craftingToolFile>]]);
 
 
 
@@ -2414,10 +2414,10 @@ recipes.addShaped(<minecraft:string>, [
 [<Natura:barleyFood:3>, <Natura:barleyFood:3>, <Natura:barleyFood:3>]]);
 
 // --- Wooden Door
-recipes.remove(WoodDoor);
+// recipes.remove(WoodDoor);
 
 // --- Iron Door
-recipes.remove(IronDoor);
+// recipes.remove(IronDoor);
 
 // --- Flower Pot
 recipes.addShapeless(<minecraft:flower_pot>, [<ore:craftingToolFile>, <IguanaTweaksTConstruct:clayBucketFired>]);
