@@ -602,3 +602,6 @@ recipes.addShaped(<Automagy:blockRedcrystalDense>, [
 [null, <minecraft:redstone_torch>, null],
 [null, <minecraft:comparator>, null],
 [null, null, null]]);
+
+// Stickreed
+ChemicalReactor.addRecipe(<IC2:itemCropSeed>.withTag({owner: "IC2", name: "stickreed", scan: 4 as byte, growth: 1 as byte, resistance: 1 as byte, gain: 1 as byte}), null, <minecraft:reeds>, <IC2:itemHarz>, null, 400, 120);
