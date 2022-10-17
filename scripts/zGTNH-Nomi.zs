@@ -591,6 +591,12 @@ recipes.addShaped(<minecraft:hopper>, [
 // Ender Pearl
 ChemicalReactor.addRecipe(<minecraft:ender_pearl> * 10, null, <gregtech:gt.metaitem.01:2008>, <gregtech:gt.metaitem.01:2025> * 4, <liquid:nitrogen> * 5000, 400, 120);
 
+// Ender Eye
+ChemicalReactor.addRecipe(<minecraft:ender_eye>, null, <minecraft:ender_pearl>, <ore:dustSulfur> * 4, null, 200, 480);
+
+// Nether Star
+Assembler.addRecipe(<minecraft:nether_star>, <ore:dustGold> * 16, <ore:gemFlawlessEmerald> * 1, 900, 256);
+
 // Brewing Stand
 recipes.addShaped(<minecraft:brewing_stand>, [
 [null, <ore:springCopper>, null],
